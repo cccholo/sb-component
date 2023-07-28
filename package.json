@@ -19,7 +19,8 @@
     "start": "start-storybook -p 6006",
     "build": "build-storybook",
     "storybook": "start-storybook -p 6006 --no-dll",
-    "build-storybook": "build-storybook --no-dll"
+    "build-storybook": "build-storybook --no-dll",
+    "chromatic": "npx chromatic --project-token=chpt_ec29481dd6a0f9d"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +47,9 @@
     "@storybook/addon-links": "^6.0.28",
     "@storybook/react": "^6.0.28",
     "babel-loader": "^8.3.0",
+    "chromatic": "^6.20.0",
     "react-is": "^18.2.0"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "my-storybook@0.1.0"
 }
